@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Chela+One&family=Indie+Flower&display=swap');
+
+h1{
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+    color: rgb(34, 33, 33);
+    margin: 12px 0;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 120px;
+}
+.myinput{
+    width: 50%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 16px;
+    border: 2px solid rgb(175, 168, 168);
+    border-radius: 12px;
+    outline: none;
+    font-family: 'Asap', sans-serif;
+    font-size: 13px;
+}
+.btn{
+    text-align: center;
+    padding: 6px;
+    margin: 7px;
+    width: 150px;
+    height: 40px;
+    background-color: #52ca52;
+    border: 1px solid;
+    border-radius: 8px;
+    font-family: 'Asap', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: #207420;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.card-img{
+    height: 150px;
+}  
+.card-img img{
+    height: inherit;
+}  

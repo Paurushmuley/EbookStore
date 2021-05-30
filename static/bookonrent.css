@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Chela+One&family=Indie+Flower&display=swap');
+* {
+    box-sizing: border-box;
+  }
+h3{
+    justify-content: center;
+    text-align: center;
+    margin: 2px;
+    font-family: 'Asap', sans-serif;
+    color: rgb(77, 69, 69);
+    overflow: hidden;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.container1 .card-img{
+    height: 262px;
+    margin-top: 5px;
+}  
+.container1 .card-img img{
+    height: inherit;
+} 
+.container1{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 1000px;
+    margin: 2px;
+    margin-left: 100px;
+    padding: 20px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 238, 233);
+    margin-bottom: 35px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    padding: 20px;
+    width: 425px;
+    border: 2px solid black;
+
+}
+.container2 h1 {
+    margin: 2px;
+    font-family: 'Asap', sans-serif;
+    font-size: 25px;
+
+}
+.container2 h2{
+    margin-top:2px ;
+    font-family: 'Asap', sans-serif;
+    text-decoration: underline;
+    font-size: 15px;
+
+
+} 
+.container3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    padding: 20px;
+
+}
+.container3 .btn1{
+    height: 39px;
+    width: 181px;
+    border: none;
+    background-color: rgb(204, 131, 79);
+    color: white;
+    font-family: 'Asap', sans-serif;
+    font-size:20px;
+
+}
+.container3 .btn2{
+    height: 39px;
+    width: 181px;
+    border: none;
+    background-color: rgb(143, 34, 34);
+    color: white;
+    font-family: 'Asap', sans-serif;
+    font-size:20px;
+
+    
+}
+

@@ -1,0 +1,19 @@
+extends base.pug
+block scripts
+    script(src='../static/index.js')
+block style
+    style
+      include ../static/myaccount.css
+block content
+    h1 E-book Store 
+    h2 Account
+    div.container
+        img(src="static/profile.png", alt="comming" id="image")
+        form(action="/myaccount" class = "myform" method="post")
+            input(type="text", name="Name" , class = "myinput", placeholder = "Username") 
+            input(type="password", name="password" , class = "myinput", placeholder = "Password") 
+            div.button
+                button(class="btn")
+                    |Create 
+                button(class="btn" id="login")
+                    |Log In               

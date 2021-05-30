@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Chela+One&family=Indie+Flower&display=swap');
+
+
+h1{
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+    color: rgb(34, 33, 33);
+    margin: 12px 0;
+}
+
+.card-box {
+    display: flex;
+    margin-left: 260px;
+
+} 
+.card-img{
+    height: 150px;
+}  
+.card-img img{
+    height: inherit;
+} 
+.card-box2 {
+    display: flex;
+    margin-left: 195px;
+    /* margin-bottom: 150px; */
+
+} 
+.card-img2{
+    height: 400px;
+}  
+.card-img2 img{
+    height: inherit;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.myform{
+    margin-left:10% ;
+}
+#buyform{
+    display: flex;
+    flex-direction: column;
+    margin: 18px;
+    padding: 10px;
+    
+}
+.myinput{
+    width: 383px;
+    margin: 14px;
+    border: 1px solid black;
+    height: 43px;
+    border-radius: 8px;
+    font-family: 'Asap', sans-serif;
+    font-size: 13px;
+
+
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+}
+.payment{
+    margin-left:10% ;
+}
+#payform{
+    display: flex;
+    flex-direction: column;
+    margin: 18px;
+    padding: 10px;
+    
+}
+.btn{
+    text-align: center;
+    padding: 6px;
+    margin: 7px;
+    width: 390px;
+    height: 40px;
+    background-color: #17c217;
+    border: 1px solid;
+    border-radius: 8px;
+    font-family: 'Asap', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+}
+.btn:hover{
+    background-color: #339633;
+}

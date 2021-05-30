@@ -1,0 +1,38 @@
+extends base.pug
+block scripts
+    script(src='../static/index.js')
+block style
+    style
+      include ../static/homestyle.css
+      
+block content
+    h1 E-book Store              
+    div.container1
+        div.container2
+            ul#sidenav 
+                li #[a(href="/myaccount") MY Account]
+                li #[a(href="/myorder") My order]
+                li #[a(href="/bookonrent") Book On Rent]
+                li #[a(href="/mycart") My Cart]
+                li #[a(href="/help") Help]
+        form(action="/home" id="myform") 
+            input(type="text", name="Name" , class = "myinput", placeholder = "Search Your Book") 
+        button(class="btn")
+            |Search
+        div.container4
+            div.card#card 
+                h3 #[a(href ="/bookonrent") Rent a Book]
+                div.card-box
+                    div.card-img
+                        img(a src="static/rent.png")
+            div.card#card 
+                h3 #[a(href ="/buyabook") Buy a Book]
+                div.card-box
+                    div.card-img
+                        img(a src="/static/Buy.png")
+            div.card#card 
+                h3 #[a(href ="/read") Read Online]
+                div.card-box
+                    div.card-img
+                        img(src="/static/Read.png")   
+                          

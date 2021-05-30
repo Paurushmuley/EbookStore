@@ -1,0 +1,44 @@
+html
+  head
+    title PBL Project
+    style
+      include ../static/homestyle.css
+      
+  body
+    nav#navbar
+        ul
+            li #[a(href='/') Home]
+            li #[a(href='/') About ]
+            li #[a(href='/') Services]
+            li #[a(href='/') Contact us]
+    h1 E-book Store              
+div.container1
+    div.container2
+        ul#sidenav 
+            li #[a(href="/") MY Account]
+            li #[a(href="/") My order]
+            li #[a(href="/") Book On Rent]
+            li #[a(href="/") My Cart]
+            li #[a(href="/") Help]
+    form(action="/home" id="myform") 
+        input(type="text", name="Name" , class = "myinput", placeholder = "Search Your Book") 
+    button(class="btn")
+        |Search
+    div.container4
+        div.card#card 
+            h3 Rent a Book 
+            div.card-box
+              div.card-img
+                img(a src="/static/rent.png")
+        div.card#card 
+            h3 Buy a Book
+            div.card-box
+              div.card-img
+                img(a src="/static/Buy.png")
+        div.card#card 
+            h3 Read Online
+            div.card-box
+              div.card-img
+                img(a src="/static/Read.png")   
+footer#footer 
+    | copright 2021|All Rights Reserved.                           

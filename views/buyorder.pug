@@ -1,0 +1,28 @@
+extends base.pug
+block scripts
+    script(src='../static/inndex.js')
+block style
+    style
+      include ../static/buyorder.css
+       
+block content
+    div.all
+        div.card-box
+            div.card-img
+                img(a src="static/buy.png")
+        div.container
+            div.myform
+                form(action="/buyorder" method="post" id="buyform")
+                    input(type="text", name="Name" , class = "myinput", placeholder = "Enter your name" ) 
+                    textarea(name="Address", cols="30", rows="10", class = "myinput" placeholder = "Enter your Address") 
+                    input(type="Phone", name="Phone" , class = "myinput", placeholder = "Enter your Phone no.")
+                    input(type="Email", name="Email" , class = "myinput", placeholder = "Enter your Email")
+                    input(type="card_holder_name", name="card_holder_name" , class = "myinput", placeholder = "card holder name") 
+                    input(type="Card_No.", name="Card_No." , class = "myinput", placeholder = "Enter Card No") 
+                    input(type="cvv", name="cvv" , class = "myinput", placeholder = "Enter cvv") 
+                    h4 pay Rs.299
+                    button(class ="btn")
+                        |Paynow        
+            div.card-box2
+                div.card-img2
+                    img(a src="static/paymentpng.png")                    

@@ -1,0 +1,16 @@
+extends base.pug
+block scripts
+    script(src='../static/index.js')
+block style
+    style
+      include ../static/about.css
+block content
+    h1 About Us
+    div.container1
+        div.container2
+            ul#sidenav 
+                li #[a(href="/myaccount") MY Account]
+                li #[a(href="/myorder") My order]
+                li #[a(href="/bookonrent") Book On Rent]
+                li #[a(href="/mycart") My Cart]
+                li #[a(href="/help") Help]     

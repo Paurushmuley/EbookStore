@@ -1,0 +1,82 @@
+extends base.pug
+block scripts
+    script(src='../static/index.js')
+block style
+    style
+      include ../static/read.css
+      
+block content
+    h1 Books for You
+    
+    div.container1
+        div.card 
+            h3 #[a(href ="/book1") Anne of Green Gables, by Lucy Maud Montgomery]
+            div.card-box    
+                div.card-img
+                    img(a src="static/books/book1.jpg")
+        div.card 
+            h3 #[a(href ="/book2") The Adventures of Sherlock Holmes, by Arthur Conan Doyle]
+                div.card-box
+                div.card-img
+                    img(a src="/static/books/book2.jpg")            
+        div.card 
+            h3 #[a(href ="/book3") The Hound of the Baskervilles, by Arthur Conan Doyle ]
+                div.card-box
+                div.card-img
+                    img(src="/static/books/book3.jpg") 
+
+    div.container1            
+        div.card 
+            h3 #[a(href ="/book4") The Iliad of Homer by Homer]
+                div.card-box
+                div.card-img
+                    img(src="/static/books/book4.jpg")
+        div.card 
+            h3 #[a(href ="/book5") The Importance of Being Earnest, by Oscar Wilde]
+                div.card-box
+                div.card-img
+                    img(src="/static/books/book5.jpg")
+        div.card 
+            h3 #[a(href ="/book6") The Jungle Book, by Rudyard Kipling]
+                div.card-box
+                div.card-img
+                    img(src="/static/books/book6.jpg")
+    div.container1            
+        div.card 
+            h3 #[a(href ="/book7") The Odyssey, by Homer]
+                div.card-box
+                div.card-img
+                    img(src="/static/books/book7.jpg")              
+        div.card 
+            h3 #[a(href ="/book8") The Republic, by Plato]
+                div.card-box
+                div.card-img
+                    img(src="/static/books/book8.jpg")               
+        div.card 
+            h3 #[a(href ="/book9") The War of the Worlds, by H. G. Wells]
+                div.card-box
+                div.card-img
+                    img(src="/static/books/book9.jpg")
+    div.container1   
+        div.card 
+            h3 #[a(href ="/book10") A Study in Scarlet., by A. Conan Doyle]
+                div.card-box
+                div.card-img
+                    img(src="/static/books/book10.jpg")
+        div.card 
+            h3 #[a(href ="/book11") A Tale of Two Cities, by Charles Dickens]
+                div.card-box
+                div.card-img
+                    img(src="/static/books/book11.jpg")
+        div.card#card 
+            h3 #[a(href ="/book12") Alice’s Adventures in Wonderland, by Lewis Carroll]
+                div.card-box
+                div.card-img
+                    img(src="/static/books/book12.jpg")
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+extends base.pug
+block scripts
+    script(src='../static/inndex.js')
+block style
+    style
+      include ../static/rentorder.css
+      
+block content
+    div.card-box
+        div.card-img
+            img(a src="static/rent.png")
+    form(action="/rentorder" method= "post" class = "myForm")
+        input(type="text", name="Name" , class = "myinput", placeholder = "Enter your name") 
+        input(type="Phone", name="Phone" , class = "myinput", placeholder = "Enter your Phone no.")
+        input(type="Email", name="Email" , class = "myinput", placeholder = "Enter your Email") 
+        input(type="Address", name="Address" , class = "myinput", placeholder = "Enter your Address")
+        button(class ="btn")
+            |PlaceOrder  
